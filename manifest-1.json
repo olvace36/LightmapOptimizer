@@ -1,0 +1,10 @@
+{
+  "Name": "Lightmap Optimizer",
+  "Author": "Ace36",
+  "Version": "1.0.0",
+  "Description": "Performance patch: shrinks the game's lighting render target (lightmap) resolution. The vanilla lightingQuality option was removed from the UI and hardcoded to 8; this patch overrides it to a higher value so the lightmap uses fewer pixels, reducing GPU cost on the draw pass every frame.",
+  "UniqueID": "JustAce36.LightmapOptimizer",
+  "MinimumApiVersion": "4.0.0",
+  "EntryDll": "LightmapOptimizer.dll",
+  "UpdateKeys": []
+}
